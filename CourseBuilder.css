@@ -1,0 +1,69 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+}
+
+.course-builder {
+  padding: 20px;
+  position: relative;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.course-builder h1 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.course-builder button.add-module {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.add-button, .create-module-button {
+  background-color: #DC143C;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.add-button:hover, .create-module-button:hover {
+  background-color: #c11235;
+}
+
+.menu {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.feedback {
+  margin-top: 10px;
+  color: green;
+  text-align: center;
+}
+
+.landing-image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
